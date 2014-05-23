@@ -9,6 +9,4 @@ esac
 export DEFAULT_PATH=$PATH
 
 # include bashrc
-if [ -f "$HOME/.bashconfig" ]; then
-    . "$HOME/.bashconfig"
-fi
+[[ -r "$HOME/.bashconfig" ]] && . "$HOME/.bashconfig"

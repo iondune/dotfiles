@@ -1,4 +1,8 @@
 
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
 alias ..='. ~/.bashconfig'
 
 alias equinox='ssh equinox'
