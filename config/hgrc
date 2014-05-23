@@ -1,0 +1,14 @@
+
+[ui]
+username = Ian Dunn <iondune@gmail.com>
+editor = nano
+
+[extensions]
+fetch =
+pager =
+color =
+mercurial_keyring =
+
+[pager]
+pager = LESS='FSRX' less
+ignore = version, help, update, serve, record

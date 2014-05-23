@@ -1,0 +1,9 @@
+
+alias ..='. ~/.bashconfig'
+
+alias equinox='ssh equinox.iondune.net'
+alias solstice='ssh ian@solstice.iondune.net'
+alias unix14='ssh idunn01@unix14.csc.calpoly.edu'
+alias fermi='ssh ian@129.65.17.165'
+
+alias mntequinox='sshfs -o reconnect ian@equinox.iondune.net:/home/ian $HOME/mount/equinox'

@@ -1,0 +1,14 @@
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+# save default path
+export DEFAULT_PATH=$PATH
+
+# include bashrc
+if [ -f "$HOME/.bashconfig" ]; then
+    . "$HOME/.bashconfig"
+fi

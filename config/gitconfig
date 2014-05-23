@@ -1,0 +1,16 @@
+[user]
+name = Ian Dunn
+email = iondune@gmail.com
+
+[push]
+default = matching
+
+[color]
+ui = true
+
+[alias]
+st = status
+ci = commit
+
+[core]
+editor = nano
