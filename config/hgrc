@@ -12,3 +12,6 @@ mercurial_keyring =
 [pager]
 pager = LESS='FSRX' less
 ignore = version, help, update, serve, record
+
+[defaults]
+addremove = --similarity 100
