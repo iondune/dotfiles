@@ -5,6 +5,7 @@ User            idunn01
 Host            equinox
 HostName        equinox.iondune.net
 User            ian
+RemoteForward   52698 127.0.0.1:52698
 
 Host            solstice
 HostName        solstice.iondune.net

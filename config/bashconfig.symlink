@@ -48,10 +48,13 @@ if [ "$color_prompt" = yes ]; then
     if [ -z "$SYSTEM_COLOR" ] ; then
         SYSTEM_COLOR="$undblu"
     fi
+    if [ -z "$SYSTEM_HOST" ] ; then
+        SYSTEM_HOST=$(hostname)
+    fi
     if [ $(id -u) -eq 0 ] ; then
-        PS1="[\[$undred\]\[$bldred\]\u\[$txtrst\]\[$bldwht\]@\[$SYSTEM_COLOR\]\h\[$txtrst\]] \[$bldwht\]\w\[$txtrst\] \$ "
+        PS1="[\[$undred\]\[$bldred\]\u\[$txtrst\]\[$bldwht\]@\[$SYSTEM_COLOR\]$SYSTEM_HOST\[$txtrst\]] \[$bldwht\]\w\[$txtrst\] \$ "
     else
-        PS1="[\[$undred\]\[$bldgrn\]\u\[$txtrst\]\[$bldwht\]@\[$SYSTEM_COLOR\]\h\[$txtrst\]] \[$bldwht\]\w\[$txtrst\] \$ "
+        PS1="[\[$undred\]\[$bldgrn\]\u\[$txtrst\]\[$bldwht\]@\[$SYSTEM_COLOR\]$SYSTEM_HOST\[$txtrst\]] \[$bldwht\]\w\[$txtrst\] \$ "
     fi
 else
     PS1='\u@\h : \w \$ '
