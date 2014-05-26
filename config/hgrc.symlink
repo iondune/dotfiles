@@ -7,6 +7,7 @@ editor = nano
 fetch =
 pager =
 color =
+graphlog =
 mercurial_keyring =
 
 [pager]
