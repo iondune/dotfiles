@@ -16,3 +16,7 @@ ignore = version, help, update, serve, record
 
 [defaults]
 addremove = --similarity 100
+
+[alias]
+pullup = pull -u
+grab = pull -u
