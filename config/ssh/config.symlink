@@ -41,6 +41,10 @@ Host            unix12
 HostName        unix12.csc.calpoly.edu
 User            idunn01
 
+Host            csclnx12
+HostName        129.65.158.175
+User            idunn01
+
 Host            unix13
 HostName        unix13.csc.calpoly.edu
 User            idunn01
