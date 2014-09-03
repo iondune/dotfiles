@@ -1,6 +1,7 @@
 Host            lupo
 HostName        lupo.csc.calpoly.edu
 User            idunn01
+IdentityFile    ~/.ssh/ian
 
 Host            equinox
 HostName        equinox.iondune.net
@@ -17,7 +18,7 @@ HostName        cstaley.csc.calpoly.edu
 User            cstaley
 
 Host            fermi
-HostName        129.65.17.165
+HostName        csc206x01.csc.calpoly.edu
 User            ian
 
 Host            unix11
