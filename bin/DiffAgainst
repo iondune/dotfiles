@@ -1,0 +1,11 @@
+#! /bin/bash
+
+if [ ! "$1" ] ; then
+	echo "usage: ./a.out < test1.in | DiffAgainst test1.out"
+	exit 1
+fi
+
+cat | diff - "$1"
+if [ $? -eq 0 ] ; then
+	echo -e "\e[32mOutput is correct.\e[0m"
+fi
