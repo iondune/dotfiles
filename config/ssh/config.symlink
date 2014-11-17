@@ -19,6 +19,11 @@ User            ian
 Port            1888
 RemoteForward   52698 127.0.0.1:52698
 
+Host            emerald
+HostName        emerald.iondune.net
+User            ian
+Port            1888
+
 Host            sapphire
 HostName        sapphire.iondune.net
 User            ian
