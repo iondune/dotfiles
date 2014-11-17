@@ -29,7 +29,7 @@ if [ $? -ne 0 ] ; then
 	exit 1
 fi
 
-hg grab
+hg pull -u
 
 if [ $? -ne 0 ] ; then
 	echo "Failed to pull changes (could be unsychronized local changes)"
