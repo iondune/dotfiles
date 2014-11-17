@@ -1,0 +1,16 @@
+#! /bin/bash
+
+directory=$1
+count=$2
+
+if [ -z $directory ]
+then
+   directory=.
+fi
+
+if [ -z $count ]
+then
+   count=10
+fi
+
+du -a $directory | sort -n -r | head -n $count
