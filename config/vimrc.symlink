@@ -17,6 +17,9 @@ set smarttab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set expandtab
 
 set list listchars=tab:\|\ ,trail:~
+
+if has("autocmd")
+    au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
