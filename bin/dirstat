@@ -13,4 +13,4 @@ then
    count=10
 fi
 
-du -a $directory | sort -n -r | head -n $count
+du -ah $directory | sort -hr | head -n $count
