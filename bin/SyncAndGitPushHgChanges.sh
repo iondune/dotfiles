@@ -40,8 +40,8 @@ echo
 
 push="git+ssh://git@github.com:iondune/${name}.git"
 
-hg bookmark -r default master
-hg outgoing "$push"
+hg bookmark --rev default master
+hg outgoing --branch default "$push"
 
 if [ $? -ne 0 ] ; then
 	exit 0
