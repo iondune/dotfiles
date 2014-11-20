@@ -10,6 +10,8 @@ color =
 graphlog =
 mercurial_keyring =
 hgext.bookmarks =
+purge =
+convert =
 
 [pager]
 pager = LESS='FSRX' less
