@@ -12,6 +12,7 @@ mercurial_keyring =
 hgext.bookmarks =
 purge =
 convert =
+git =
 
 [pager]
 pager = LESS='FSRX' less
