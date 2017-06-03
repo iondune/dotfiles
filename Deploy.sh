@@ -10,3 +10,10 @@ for file in $files ; do
     linkTarget="${dir}/config/${linkTarget}"
     ln -sf "$linkTarget" "$linkSource"
 done
+
+bashLocal="$HOME/.bash_local"
+colorsFile="${dir}/colors/$( hostname )"
+
+if [ ! -f "$bashLocal" -a -f "$colorsFile" ]; then
+    cp "$colorsFile" "$bashLocal"
+fi

@@ -1,0 +1,2 @@
+USER_COLOR="\e[4;1;38;5;033m"
+SYSTEM_COLOR="\e[4;38;5;039m"
