@@ -1,5 +1,11 @@
 #! /bin/sh
 
 cd ~/.dotfiles
-hg pull -u
+
+if [ -d '.git' ]; then
+    git pull
+elif [ -d '.hg']; then
+    hg pull -u
+fi
+
 ./Deploy.sh
