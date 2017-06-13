@@ -1,3 +1,8 @@
 
-export PATH="$HOME/bin:$HOME/.dotfiles/bin:$DEFAULT_PATH:."
+export PATH="$DEFAULT_PATH"
+export PATH="$PATH:."
+export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.dotfiles/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+
 export CPLUS_INCLUDE_PATH="$HOME/include/"
