@@ -4,5 +4,3 @@ export PATH="$PATH:."
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/.dotfiles/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
-
-export CPLUS_INCLUDE_PATH="$HOME/include/"

@@ -4,16 +4,3 @@ alias la='ls -A'
 alias l='ls -CF'
 
 alias ..='. ~/.bashconfig'
-
-alias equinox='ssh equinox'
-alias solstice='ssh solstice'
-
-alias scarlatti='ssh scarlatti'
-alias fermi='ssh fermi'
-
-alias unix13='ssh unix13'
-alias csl='ssh unix13'
-alias gcs='ssh gcs13'
-
-alias mntequinox='sshfs -o reconnect ian@equinox.iondune.net:/home/ian $HOME/mount/equinox'
-alias mntgcs='sshfs -o reconnect grade_cstaley@unix13.csc.calpoly.edu:/home/grade_cstaley $HOME/mount/grade_cstaley'
