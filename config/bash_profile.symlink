@@ -1,3 +1,6 @@
 
 # include bashrc
 [[ -r "$HOME/.bashrc" ]] && . "$HOME/.bashrc"
+
+# load ruby
+eval "$(rbenv init -)"
