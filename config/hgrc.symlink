@@ -8,7 +8,6 @@ fetch =
 pager =
 color =
 graphlog =
-mercurial_keyring =
 hgext.bookmarks =
 purge =
 convert =
