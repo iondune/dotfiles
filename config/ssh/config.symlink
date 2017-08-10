@@ -1,23 +1,8 @@
-Host            lupo
-HostName        lupo.csc.calpoly.edu
-User            idunn01
-IdentityFile    ~/.ssh/ian
-
-Host            equinox
-HostName        equinox.iondune.net
-User            ian
-RemoteForward   52698 127.0.0.1:52698
-
-Host            solstice
-HostName        solstice.iondune.net
-User            ian
-RemoteForward   52698 127.0.0.1:52698
 
 Host            amethyst
 HostName        amethyst.iondune.net
 User            ian
 Port            1888
-RemoteForward   52698 127.0.0.1:52698
 
 Host            emerald
 HostName        emerald.iondune.net
@@ -28,15 +13,16 @@ Host            sapphire
 HostName        sapphire.iondune.net
 User            ian
 Port            1888
-RemoteForward   52698 127.0.0.1:52698
 
-Host            scarlatti
-HostName        cstaley.csc.calpoly.edu
-User            cstaley
-
-Host            fermi
-HostName        csc206x01.csc.calpoly.edu
+Host            ruby
+HostName        ruby.iondune.net
 User            ian
+Port            1888
+
+Host            topaz
+HostName        topaz.iondune.net
+User            ian
+Port            1888
 
 Host            unix11
 HostName        unix11.csc.calpoly.edu
@@ -46,10 +32,6 @@ Host            unix12
 HostName        unix12.csc.calpoly.edu
 User            idunn01
 
-Host            csclnx12
-HostName        129.65.158.175
-User            idunn01
-
 Host            unix13
 HostName        unix13.csc.calpoly.edu
 User            idunn01
@@ -57,23 +39,3 @@ User            idunn01
 Host            unix14
 HostName        unix14.csc.calpoly.edu
 User            idunn01
-
-Host            gcs5
-HostName        unix5.csc.calpoly.edu
-User            grade_cstaley
-
-Host            gcs11
-HostName        unix11.csc.calpoly.edu
-User            grade_cstaley
-
-Host            gcs12
-HostName        unix12.csc.calpoly.edu
-User            grade_cstaley
-
-Host            gcs13
-HostName        unix13.csc.calpoly.edu
-User            grade_cstaley
-
-Host            gcs14
-HostName        unix14.csc.calpoly.edu
-User            grade_cstaley
