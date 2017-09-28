@@ -24,6 +24,30 @@ HostName        topaz.iondune.net
 User            ian
 Port            1888
 
+Host            unix1
+HostName        unix1.csc.calpoly.edu
+User            idunn01
+
+Host            unix2
+HostName        unix2.csc.calpoly.edu
+User            idunn01
+
+Host            unix3
+HostName        unix3.csc.calpoly.edu
+User            idunn01
+
+Host            unix4
+HostName        unix4.csc.calpoly.edu
+User            idunn01
+
+Host            unix5
+HostName        unix5.csc.calpoly.edu
+User            idunn01
+
+Host            unix6
+HostName        unix6.csc.calpoly.edu
+User            idunn01
+
 Host            unix11
 HostName        unix11.csc.calpoly.edu
 User            idunn01
