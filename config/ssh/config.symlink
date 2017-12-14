@@ -1,4 +1,8 @@
 
+Host *
+ServerAliveInterval 120
+
+
 Host            amethyst
 HostName        amethyst.iondune.net
 User            ian
