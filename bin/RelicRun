@@ -2,7 +2,7 @@
 
 relicdir="$HOME/projects/Relic"
 this="RelicRun"
-program=$1
+program=${1%/}
 
 if [ $# -lt 1 ]; then
 	echo "usage: $this <program>"
