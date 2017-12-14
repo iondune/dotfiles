@@ -5,6 +5,8 @@ alias l='ls -CF'
 
 alias ..='. ~/.bashconfig'
 
+alias rr='RelicRun'
+
 alias 357='cd ~/github-pages/csc357'
 alias 471='cd ~/github-pages/csc471'
 alias 476='cd ~/github-pages/csc476'
