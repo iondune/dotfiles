@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+relicdir="$HOME/projects/Relic"
+program=$1
+
+if [ -x "$relicdir/Build/$program/$program" ]; then
+	cd "$relicdir/$program"
+	"$relicdir/Build/$program/$program"  "${@:2}"
+else
+	echo "RelicRun: '$program' does not appear to be a relic program"
+fi
+
