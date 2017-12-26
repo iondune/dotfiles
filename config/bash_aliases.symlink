@@ -5,6 +5,7 @@ alias l='ls -CF'
 
 alias ..='. ~/.bashconfig'
 
-alias 357='cd ~/github-pages/csc357'
-alias 471='cd ~/github-pages/csc471'
-alias 476='cd ~/github-pages/csc476'
+alias 357='cd ~/calpoly/357'
+alias 471='cd ~/calpoly/471'
+alias 476='cd ~/calpoly/476'
+alias blog='cd ~/github-pages/blog.alluvialgame.com'
