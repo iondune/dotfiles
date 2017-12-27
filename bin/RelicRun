@@ -1,0 +1,19 @@
+#! /usr/bin/env bash
+
+relicdir="$HOME/projects/Relic"
+this="RelicRun"
+program=${1%/}
+
+if [ $# -lt 1 ]; then
+	echo "usage: $this <program>"
+	exit 1
+fi
+
+if [ -x "$relicdir/Build/$program/$program" ]; then
+	cd "$relicdir/$program"
+	"$relicdir/Build/$program/$program"  "${@:2}"
+else
+	echo "$this: '$program' does not appear to be a relic program"
+	exit 1
+fi
+

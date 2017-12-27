@@ -9,3 +9,6 @@ alias 357='cd ~/calpoly/357'
 alias 471='cd ~/calpoly/471'
 alias 476='cd ~/calpoly/476'
 alias blog='cd ~/github-pages/blog.alluvialgame.com'
+
+alias rr='RelicRun'
+alias rb='RelicBuild'

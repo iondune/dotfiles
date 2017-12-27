@@ -1,7 +1,0 @@
-#! /bin/sh
-
-if [ "$1" ] ; then
-	cat ~/.ssh/id_rsa.pub | ssh "$1" 'cat >> .ssh/authorized_keys'
-else
-	echo "usage: AuthorizeMeOn <server>"
-fi

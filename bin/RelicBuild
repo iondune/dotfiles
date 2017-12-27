@@ -1,0 +1,5 @@
+#! /usr/bin/env bash
+
+relicdir="$HOME/projects/Relic"
+
+cd "$relicdir/Build" && make
