@@ -5,13 +5,19 @@ alias l='ls -CF'
 
 alias ..='. ~/.bashconfig'
 
-alias 357='cd ~/calpoly/357'
+
+alias 371='cd ~/calpoly/371'
+alias 371w='cd ~/calpoly/371/website'
+
 alias 471='cd ~/calpoly/471'
 alias 471w='cd ~/calpoly/471/website'
 alias 471b='cd ~/calpoly/471/basecode'
 alias 471g='cd ~/calpoly/471/grading'
+
 alias 476='cd ~/calpoly/476'
 alias 476w='cd ~/calpoly/476/website'
+
+
 alias blog='cd ~/github-pages/blog.alluvialgame.com'
 
 alias rr='RelicRun'
