@@ -14,6 +14,9 @@ alias 471w='cd ~/calpoly/471/website'
 alias 471b='cd ~/calpoly/471/basecode'
 alias 471g='cd ~/calpoly/471/grading'
 
+alias 473='cd ~/calpoly/473'
+alias 473w='cd ~/calpoly/473/website'
+
 alias 476='cd ~/calpoly/476'
 alias 476w='cd ~/calpoly/476/website'
 
