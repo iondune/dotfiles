@@ -5,6 +5,8 @@ alias l='ls -CF'
 
 alias ..='. ~/.bashconfig'
 
+alias 357='cd ~/calpoly/357'
+alias 357w='cd ~/calpoly/357/website'
 
 alias 371='cd ~/calpoly/371'
 alias 371w='cd ~/calpoly/371/website'
@@ -16,6 +18,9 @@ alias 471g='cd ~/calpoly/471/grading'
 
 alias 473='cd ~/calpoly/473'
 alias 473w='cd ~/calpoly/473/website'
+alias 473i='cd ~/calpoly/473/inputfiles'
+alias 473t='cd ~/calpoly/473/testfiles'
+alias 473s='cd ~/calpoly/473/samplecode'
 
 alias 476='cd ~/calpoly/476'
 alias 476w='cd ~/calpoly/476/website'
