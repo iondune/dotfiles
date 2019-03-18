@@ -9,12 +9,27 @@ default = matching
 ui = true
 
 [alias]
-st = status
-ci = commit
-l = log --graph --all --decorate --oneline
-ls = log --graph --all --decorate
-staged = diff --cached
-d = diff
+a   = add
+b   = branch
+s   = status
+ci  = commit
+co  = checkout
+d   = diff
+re  = rebase
+ff  = merge --ff-only
+l   = log --graph --oneline --branches
+la  = log --graph --oneline --branches --all
+ls  = log --graph           --branches
+lsa = log --graph           --branches --all
+lol = log --graph --oneline
+cp  = cherry-pick
+fp  = fetch --prune
+return    = checkout
+in        = diff --cached
+staged    = diff --cached
+ups       = for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads
+upstreams = for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads
+aliases   = config --global --get-regexp 'alias.*'
 
 [core]
 editor = vim
