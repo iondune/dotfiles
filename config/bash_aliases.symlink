@@ -27,6 +27,8 @@ alias 476w='cd ~/calpoly/476/website'
 
 
 alias blog='cd ~/github-pages/blog.alluvialgame.com'
+alias gpc='cd ~/github-pages/graphicscompendium.com'
+
 
 alias rr='RelicRun'
 alias rb='RelicBuild'
