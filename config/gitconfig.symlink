@@ -16,17 +16,21 @@ ci  = commit
 co  = checkout
 d   = diff
 re  = rebase
+res = reset
 ff  = merge --ff-only
-l   = log --graph --oneline --branches
-la  = log --graph --oneline --branches --all
-ls  = log --graph           --branches
-lsa = log --graph           --branches --all
-lol = log --graph --oneline
+ls  = log --graph
+l   = log --graph --oneline
+lfp = log --graph --oneline --first-parent
 cp  = cherry-pick
 fp  = fetch --prune
+sut = branch --set-upstream-to
+bsu = branch --set-upstream-to
 return    = checkout
 in        = diff --cached
+ca        = diff --cached
+st        = diff --cached
 staged    = diff --cached
+detail    = log --format=fuller -n 1
 ups       = for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads
 upstreams = for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads
 aliases   = config --global --get-regexp 'alias.*'
