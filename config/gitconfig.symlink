@@ -14,26 +14,43 @@ b   = branch
 s   = status
 ci  = commit
 co  = checkout
+cod = checkout --detach
 d   = diff
 re  = rebase
+reb = rebase
 res = reset
 ff  = merge --ff-only
 ls  = log --graph
+lsa = log --graph --all
 l   = log --graph --oneline
+ll  = log --graph '--pretty=format:%C(auto)%h %Cblue%cd%C(auto)%d %s' '--date=format:%F %H:%M %z'
+lla = log --graph '--pretty=format:%C(auto)%h %Cblue%cd%C(auto)%d %s' '--date=format:%F %H:%M %z' --all
+la  = log --graph --oneline --all
 lfp = log --graph --oneline --first-parent
 cp  = cherry-pick
 fp  = fetch --prune
+fa  = fetch --all
+fpa = fetch --prune --all
+ffpa = !git fetch --prune --all && git merge --ff-only
+fpo = fetch --prune origin
 sut = branch --set-upstream-to
 bsu = branch --set-upstream-to
+pfwl = push --force-with-lease
+suir = submodule update --init --recursive
+puh  = push -u origin HEAD
+mom  = branch -f main origin/main
 return    = checkout
 in        = diff --cached
 ca        = diff --cached
 st        = diff --cached
 staged    = diff --cached
 detail    = log --format=fuller -n 1
-ups       = for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads
-upstreams = for-each-ref --format='%(refname:short) <- %(upstream:short)' refs/heads
+ups       = for-each-ref --format='%(refname:short) --> %(upstream:short)' refs/heads
+upstreams = for-each-ref --format='%(refname:short) --> %(upstream:short)' refs/heads
 aliases   = config --global --get-regexp 'alias.*'
+show-merge = "!sh -c 'merge=$(git find-merge $0 $1) && [ -n \"$merge\" ] && git show $merge'"
+undo      = reset HEAD~
+dt        = describe --tags
 
 [core]
 editor = vim
